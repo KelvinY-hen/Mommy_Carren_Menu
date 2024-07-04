@@ -22,9 +22,6 @@ return new class extends Migration
             $table->softDeletes();
             
             // Additional columns based on your schema
-            $table->datetime('created_at')->nullable();
-            $table->datetime('updated_at')->nullable();
-            $table->datetime('deleted_at')->nullable();
             $table->string('created_by', 100)->nullable();
             $table->string('updated_by', 100)->nullable();
             $table->string('deleted_by', 100)->nullable();
