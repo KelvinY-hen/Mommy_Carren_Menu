@@ -13,7 +13,7 @@ class FoodController extends Controller
 {
     //
     public function FoodListing(){
-
+        // dd('test');
         $aFoodArray = AFood::all();
         $mFoodCategoryArray = MFoodCategory::with('AFood')->get();
 
