@@ -48,6 +48,9 @@
                                 <div class=" text-right font-bold">Rp.{{$cart_total}}</div>
                             </li>
                         </ul>
+                        <div class="text-end mt-3">
+                            <a name="" id="" class=" text-white btn btn-primary rounded-3xl bg-orange-500 p-3" href="{{route('food.showReceipt')}}" role="button">Generate Receipt</a>
+                        </div>
                     </main>
                 
                 </div>
